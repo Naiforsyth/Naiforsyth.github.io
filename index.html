@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Web Portafolio-2</title>
+
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <section>
+          <section class="contenedor nav">
+            <div class="logo">
+              <img src="img/lognf.png" alt="Logo Nai Forsyth" />
+            </div>
+            <div class="enlaces-header">
+              <a href="#">Inicio</a>
+              <a href="#proyectos">Proyectos</a>
+              <a href="#contacto">Contacto</a>
+            </div>
+            <div class="hamburguer">
+              <i class="fas fa-bars"></i>
+            </div>
+          </section>
+        </section>
+      </nav>
+      <div class="contenedor">
+        <section class="contenido-header">
+          <section class="textos-header">
+            <h1>Hola Mundo!</h1>
+            <p>Mi nombre es Nairet y soy Desarrolladora Junior Front End</p>
+          </section>
+          <img
+            src="img/primera_imagen.svg"
+            alt="Programmer"
+            data-aos="fade-down-right"
+            data-aos-duration="2000"
+          />
+        </section>
+      </div>
+    </header>
+    <section class="about-us">
+      <div class="contenedor1">
+        <h2 class="titulo" id="proyectos">Proyectos</h2>
+        <div class="contenedor-articulo">
+          <div
+            class="articulo"
+            data-aos="zoom-in-left"
+            data-aos-duration="2000"
+          >
+            <img src="img/proyecto1.PNG" alt="" />
+            <h3>HTML, CSS, JavaScript</h3>
+            <p>Layout de un restaurante con efecto Parallax</p>
+            <a
+              class="boton"
+              href="proyectos/restaurante/index.html"
+              target="_blanck"
+              >Ver mas</a
+            >
+          </div>
+          <div
+            class="articulo"
+            data-aos="zoom-in-left"
+            data-aos-duration="2000"
+          >
+            <img src="img/proyecto2.PNG" alt="" />
+            <h3>HTML, CSS, Bootstrap</h3>
+            <p>Layout de un ecommerce con la grid de Bootstrap</p>
+            <a
+              class="boton"
+              href="proyectos/bootstrap/index.html"
+              target="_blanck"
+              >Ver mas</a
+            >
+          </div>
+          <div
+            class="articulo"
+            data-aos="zoom-in-left"
+            data-aos-duration="2000"
+          >
+            <img src="img/proyecto3.PNG" alt="" />
+            <h3>HTML, CSS, Sass</h3>
+            <p>Layout sencilla de una Startup utilizando Sass</p>
+            <a
+              class="boton"
+              href="proyectos/startup/index.html"
+              target="_blanck"
+              >Ver mas</a
+            >
+          </div>
+          <div
+            class="articulo"
+            data-aos="zoom-in-left"
+            data-aos-duration="2000"
+          >
+            <img src="img/proyecto4.PNG" alt="" />
+            <h3>HTML, CSS</h3>
+            <p>Ejemplo de Layout sencilla para una página Web</p>
+            <a class="boton" href="proyectos/flexbox/index.html"
+              target="_blanck">Ver mas</a>
+          </div>
+          <div
+            class="articulo"
+            data-aos="zoom-in-left"
+            data-aos-duration="2000"
+          >
+            <img src="img/proyecto5.PNG" alt="" />
+            <h3>HTML, CSS</h3>
+            <p>Layout sencilla de un Blog</p>
+            <a class="boton" href="proyectos/layout/index.html"
+              target="_blanck">Ver mas</a>
+            <p></p>
+          </div>
+          <div
+            class="articulo"
+            data-aos="zoom-in-left"
+            data-aos-duration="2000"
+          >
+            <img src="img/proyecto6.PNG" alt="" />
+            <h3>HTML, CSS</h3>
+            <p>Layout sencilla para una página Web Personal</p>
+            <a class="boton" href="proyectos/portafolio/index.html"
+              target="_blanck">Ver mas</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contenedor1 services">
+      <img
+        src="img/tercera_imagen.svg"
+        alt=""
+        data-aos="fade-right"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-sine"
+      />
+      <div class="box-skills">
+        <h4 id="contacto">Contacto</h4>
+        <form class="formulario" action="">
+          <input type="text" placeholder="Nombre" name="nombre" required />
+          <input type="email" placeholder="Correo" name="correo" required />
+          <textarea name="mensaje" placeholder="Mensaje"></textarea>
+          <input class="boton" type="submit" value="Enviar" />
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="partFooter">
+        <img src="img/lognf.png" alt="" />
+      </div>
+      <div class="partFooter">
+        <h4>Redes Sociales</h4>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/nairet-vergara-forsyth/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/Naiforsyth" class="github" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b662be7be7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
