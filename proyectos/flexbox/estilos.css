@@ -31,10 +31,10 @@ header {
 }
 
 header .menu a {
-  color: #e54b4b;
-  margin-right: 40px;
-  text-decoration: none;
-  font-size: 18px;
+  font-size: 1.7rem;
+  color: #666;
+  padding: 2rem;
+  display: block;
 }
 
 header .menu a:hover {
